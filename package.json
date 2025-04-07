@@ -1,0 +1,30 @@
+{
+  "name": "mighty-pup-discord-poc",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/g-linville/mighty-pup-discord-poc.git"
+  },
+  "keywords": [],
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/g-linville/mighty-pup-discord-poc/issues"
+  },
+  "homepage": "https://github.com/g-linville/mighty-pup-discord-poc#readme",
+  "description": "",
+  "dependencies": {
+    "@types/node": "^22.13.13",
+    "axios": "^1.8.4",
+    "discord.js": "^14.18.0",
+    "dotenv": "^16.4.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  }
+}
